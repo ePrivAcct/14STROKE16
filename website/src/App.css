@@ -21,7 +21,120 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white;/* The whole page*/
+body{
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0;
+ 
+}
+/*The nav bar image*/
+.navbar-brand{
+margin: 0;
+display: block;
+
+}
+
+.navbar{
+  display: block;
+  margin-left: -36px;
+}
+
+/*The nav bar image*/
+.logo{
+  width: 500px;
+  display: block;
+  
+}
+/*The nav bar page names*/
+.nav-item a{
+  font-family: 'Noto Sans KR', sans-serif;
+  color: black;
+  font-size: 60px;
+  font-weight: 500;
+  
+
+}
+
+.nav-item{
+  margin-top: -20px;
+}
+
+.nav-link{
+  padding: 0;
+}
+
+.navbar-nav{
+  display: block;
+  margin: 0;
+}
+
+/*The articles with the pictures and the writing all together*/
+
+
+.card{
+width: 100vw;
+border: none;
+margin-top: 0 px;
+z-index: -1;
+position: absolute;
+top: 0px;
+
+
+} 
+
+
+
+/*Article Headline*/
+.headline{
+  margin-top: -140px;
+  padding-left: 10px;
+  font-size: 105px;
+}
+
+.card-text{
+  font-size: 30px;
+}
+
+ .card-img-top{
+  margin-top: 0px;
+  position: relative;
+} 
+
+.advert{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+}
+
+.advertise{
+  font-size: 90px;
+  padding-left: 10px;
+  margin-bottom: -5px;
+}
+
+.rent{
+  display: block;
+}
+
+.advert-text-right{
+  text-align: right;
+  padding-right: 20px;
+}
+
+.advert-text-right, .advert-text-left{
+font-weight: 700;
+font-size: 30px;
+line-height: 20px;
+}
+
+.advert-text-left{
+  padding-left: 10px;
+}
+
+.mb-3 {
+  margin-right: auto;
+}
 }
 
 .App-link {
