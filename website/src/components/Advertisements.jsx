@@ -1,6 +1,21 @@
 import React from "react";
+import { useState } from "react";
 
 export default function Advertisement() {
+    const [advertiseData, setAdvertiseData] = useState({
+        advert: ``, 
+        advertimage: ``, 
+    });
+
+    const handleChange = e => {
+        const { name, value } = e.target; 
+        setAdvertiseData({
+            ...advertiseData,
+            [name]: value
+        });
+        console.dir("Advertisement data:" + advertiseData);
+    }
+
     return (
 
         <div>
