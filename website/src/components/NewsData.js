@@ -1,7 +1,7 @@
 export default [
     {
         id: 1,
-        image: "../images/Vetements.jpg",
+        image: "./images/Vetements.jpg",
         headline: "Guram Gvasalia Named Creative Director of Vetements",
         newsText:
             `Vetements forgot  to mention one thing when it unveiled its fall 2022 collection late last month: It   can be credited to Guram Gvasalia, who has been named creative director of the Zurich-based fashion house.
@@ -17,6 +17,7 @@ export default [
     {
         id: 2,
         image: "./images/Vetements.jpg",
+        headline: "Guram Gvasalia Named Creative Director of Vetements",
         newsText:
             `Vetements forgot  to mention one thing when it unveiled its fall 2022 collection late last month: It   can be credited to Guram Gvasalia, who has been named creative director of the Zurich-based fashion house.
 
@@ -31,6 +32,7 @@ export default [
     {
         id: 3,
         image: "./images/Vetements.jpg",
+        headline: "Guram Gvasalia Named Creative Director of Vetements",
         newsText:
             `Vetements forgot  to mention one thing when it unveiled its fall 2022 collection late last month: It   can be credited to Guram Gvasalia, who has been named creative director of the Zurich-based fashion house.
 

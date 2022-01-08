@@ -1,5 +1,4 @@
 import React from "react";
-import NewsData from "./NewsData";
 //import { useState } from "react";
 //import axios from 'axios'; 
 
@@ -18,16 +17,6 @@ export default function News({ image, newsText, headline }) {
     //     });
     //     console.dir("Article data: " + articleData)
     // }
-
-
-
-
-    const NewsInfo = NewsData.map((news) => {
-        return <NewsData
-            key={news.id}
-            {...news}
-        />
-    })
 
 
 

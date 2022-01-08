@@ -11,6 +11,7 @@ import Advertisement from './components/Advertisements';
 import News from './components/News';
 import Collaborate from './components/Collaborate';
 import NewsData from './components/NewsData';
+import About from './components/About';
 
 
 
@@ -24,8 +25,8 @@ function App() {
   })
 
 
-  const NewsInfo = NewsData.map((news) => {
-    return <NewsData
+  const newsInfo = NewsData.map((news) => {
+    return <News
       key={news.id}
       {...news}
     />
@@ -37,8 +38,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={articleInfo} />
-        <Route path="/News" element={<News />} />
+        <Route path="/News" element={newsInfo} />
         <Route path="/Collaborate" element={<Collaborate />} />
+        <Route path="/About" element={<About />} />
       </Routes>
       <Advertisement />
       {/* <Footer /> */}
