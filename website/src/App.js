@@ -2,11 +2,12 @@ import { Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 
-import Navbar from './components/Navbar';
+import Navbar from './components/NavBar.jsx';
 import Footer from './components/Footer';
 import Body from './components/Body';
 import ArticlesData from './components/ArticlesData';
-import Advertisement from './components/Advertisement';
+// import Advertisement from './components/Advertisement';
+import Advertisement from './components/Advertisements';
 import News from './components/News';
 import Collaborate from './components/Collaborate';
 import NewsData from './components/NewsData';
@@ -40,7 +41,7 @@ function App() {
         <Route path="/Collaborate" element={<Collaborate />} />
       </Routes>
       <Advertisement />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
