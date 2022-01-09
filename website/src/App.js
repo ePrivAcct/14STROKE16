@@ -6,7 +6,7 @@ import './App.css';
 
 import Navbar from './components/NavBar.jsx';
 import Footer from './components/Footer';
-import Body from './components/Body';
+import Home from './components/Home';
 import ArticlesData from './components/ArticlesData';
 // import Advertisement from './components/Advertisement';
 import Advertisement from './components/Advertisements';
@@ -20,7 +20,7 @@ import About from './components/About';
 function App() {
 
   const articleInfo = ArticlesData.map((article) => {
-    return <Body
+    return <Home
       key={article.id}
       {...article}
     />
@@ -44,8 +44,9 @@ function App() {
         <Route path="/Collaborate" element={<Collaborate />} />
         <Route path="/About" element={<About />} />
       </Routes>
-      <Advertisement />
-      {/* <Footer /> */}
+      
+      {/* <Advertisement /> */}
+      <Footer />
     </div>
   );
 }
